@@ -3,6 +3,8 @@ bucksaw
 
 Tool for looking inside flight logs of drones using the Cleanflight family of firmwares (Betaflight, INAV). Primary use case is analyzing vibrations and tune performance. Still work in progress.
 
+How the PID/step response analysis works and how to read it: [English](docs/pid-analysis.md) · [Русский](docs/pid-analysis.ru.md)
+
 A Web Assembly version is publicly accessible at: https://bucksaw.koffeinflummi.de/
 
 The performance on the web version is obviously not quite up to par with the native version, but it requires no setup and works even on mobile. Be careful with larger FFT sizes, or just larger log files in general. All processing is done in Web Assembly in your browser, so your log file never leaves your device.
